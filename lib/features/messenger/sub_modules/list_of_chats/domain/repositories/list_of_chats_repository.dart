@@ -21,6 +21,7 @@ import 'package:dartz/dartz.dart';
 /// Implement this abstract class to handle API communication for fetching chat lists.
 /// Extend it to define how remote data sources interact with the API and process responses.
 ///
+///
 abstract class ListOfChatRepository {
   Future<
       Either<RemoteDataState<ErrorResponseModel>,
